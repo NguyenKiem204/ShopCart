@@ -1,0 +1,150 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 30, 2024, 8:24:57 AM
+    Author     : nkiem
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.headerr {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-left,
+.header-center,
+.header-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    background-image: url("https://anhdepfree.com/wp-content/uploads/2020/04/anh-nen-toi-tam.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header-left img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+}
+
+.header-left .store-info {
+    flex-grow: 1;
+    margin-left: 20px;
+    color: white;
+}
+
+.header-left .store-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-left .store-info p {
+    margin: 5px 0;
+}
+
+.header-left .store-info .buttons {
+    margin-top: 10px;
+}
+
+.header-left .store-info .buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+}
+
+.header-left .store-info .buttons button:hover {
+    background-color: #f0f0f0;
+}
+
+.header-left .store-info .buttons .follow {
+    background-color: #ff424e;
+    color: white;
+    border: none;
+}
+
+.header-center {
+    justify-content: center;
+    text-align: center;
+}
+
+.header-center .store-stats {
+    text-align: left;
+}
+
+.store-stats p {
+    margin: 10px 10px;
+    width: auto;
+}
+
+.header-center .store-stats p span {
+    color: #ff424e;
+}
+
+.header-right {
+    align-items: flex-start;
+    text-align: left;
+}
+
+.header-right .store-stats p span {
+    color: #ff424e;
+}
+
+p,
+a {
+    color: #f0f0f0 !important;
+}
+
+.store-stats i {
+    margin-right: 5px;
+}
+
+.navv {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+}
+
+.navv a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-bottom: 2px solid transparent;
+}
+
+.navv a.active {
+    color: #ff424e;
+    border-bottom: 2px solid #ff424e;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    margin: 0 0 20px 0;
+    color: #ddd;
+}
+

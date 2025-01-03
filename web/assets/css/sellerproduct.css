@@ -1,0 +1,196 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 24, 2024, 9:59:25 PM
+    Author     : nkiem
+*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+
+.scroll::-webkit-scrollbar {
+    height: 2px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #ee4d2d;
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #0fce95;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.new-product {
+    margin-top: 30px;
+}
+
+.new-product .sub-title {
+    color: #e5e0df;
+    text-shadow: 3px 3px 3px #aaa;
+    font-size: 2.7rem;
+    font-weight: 550;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.new-product .row {
+    display: grid;
+    grid-template-columns: repeat(6, 220px);
+    gap: 20px;
+    padding: 20px 0;
+}
+.containerr{
+    margin: 0 100px;
+}
+.new-product .row li {
+    width: 220px;
+    height: 310px;
+    border: 1px solid #ee4d2d;
+    transition: 0.2s ease-in-out;
+}
+
+.new-product li img {
+    padding-top: 7px;
+    width: 205px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.best-deal .item:hover,
+.new-product li:hover {
+    box-shadow: 0 0 4px #b8e61f;
+    transform: scale(1.05);
+}
+
+.dark {
+    background-color: #333;
+}
+
+.best-deal .item a,
+.new-product li a {
+    text-decoration: none;
+}
+
+.best-deal .item .name,
+.new-product li .name {
+    font-size: 1.8rem;
+    font-weight: 550;
+    line-height: 1.2;
+    margin: 4px 0;
+    height: 42px;
+    text-align: left;
+    color: #d1cfcf;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 4px;
+}
+
+.new-product li .new-price {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 3px 0;
+    text-align: left;
+    color: #ee4d2d;
+    margin: 4px;
+}
+
+.new-product li .star {
+    color: #f0ad4e;
+    text-align: left;
+    margin: 4px;
+}
+
+.new-product li .price {
+    display: flex;
+    align-items: baseline;
+}
+
+.old-price {
+    font-size: 1rem;
+    color: #d1cfcf;
+    text-decoration: line-through;
+}
+
+.scroll li {
+    display: none;
+}
+
+.scroll li.visible {
+    display: list-item;
+}
+
+.main-content {
+    display: flex;
+    position: relative;
+}
+
+.filter-sidebar {
+    width: 17%;
+    padding: 20px;
+    background-color: #444;
+    color: #fff;
+    height: max-content;
+}
+
+li {
+    list-style: none;
+}
+
+.max-price,
+.min-price {
+    display: inline-block;
+    width: 40px;
+}
+
+h4 {
+    font-size: 16px;
+    color: #ee4d2d;
+    font-weight: 500;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+}
+.filter-sidebar{
+    position: sticky;
+    top: 90px;
+    height: 850px;
+}
+
+.btnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btnn button{
+    padding: 5px 10px;
+    border-radius: 17px;
+    background-color: #b8e61f;
+}

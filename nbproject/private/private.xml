@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/ShoppCart/web/accessdenied.jsp</file>
+            <file>file:/D:/ShoppCart/src/conf/application.properties</file>
+            <file>file:/D:/ShoppCart/src/java/controller/CheckMail.java</file>
+            <file>file:/D:/ShoppCart/src/java/controller/HomSerlvet.java</file>
+            <file>file:/D:/ShoppCart/src/java/service/HomeFilter.java</file>
+            <file>file:/D:/ShoppCart/web/home.jsp</file>
+            <file>file:/D:/ShoppCart/web/order.jsp</file>
+            <file>file:/D:/ShoppCart/src/java/controller/LoginServlet.java</file>
+            <file>file:/D:/ShoppCart/src/java/service/AdminFilter.java</file>
+            <file>file:/D:/ShoppCart/src/java/dao/ProductDAO.java</file>
+            <file>file:/D:/ShoppCart/web/cartchartofseller.jsp</file>
+            <file>file:/D:/ShoppCart/web/login.jsp</file>
+            <file>file:/D:/ShoppCart/web/WEB-INF/web.xml</file>
+            <file>file:/D:/ShoppCart/src/java/controller/PayReturn.java</file>
+            <file>file:/D:/ShoppCart/src/java/controller/CartServlet.java</file>
+            <file>file:/D:/ShoppCart/src/java/controller/Order.java</file>
+            <file>file:/D:/ShoppCart/src/java/controller/AddProductCart.java</file>
+            <file>file:/D:/ShoppCart/web/listuser.jsp</file>
+            <file>file:/D:/ShoppCart/web/listproductofseller.jsp</file>
+            <file>file:/D:/ShoppCart/web/admin.jsp</file>
+            <file>file:/D:/ShoppCart/src/java/service/SellerFilter.java</file>
+            <file>file:/D:/ShoppCart/web/cart.jsp</file>
+            <file>file:/D:/ShoppCart/src/java/constant/IconstantFacebook.java</file>
+            <file>file:/D:/ShoppCart/src/java/controller/CartChart.java</file>
+            <file>file:/D:/ShoppCart/src/java/constant/Iconstant.java</file>
+            <file>file:/D:/ShoppCart/src/java/service/LogFilter.java</file>
+            <file>file:/D:/ShoppCart/src/java/controller/PaymentServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

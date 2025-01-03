@@ -1,0 +1,160 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 29, 2024, 4:27:40 PM
+    Author     : nkiem
+*/
+body {
+      font-family: Arial, sans-serif;
+      background-color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .store-name,
+    p {
+      color: #eaeaea;
+    }
+
+    .status {
+      color: #999;
+    }
+
+    .container-order {
+      width: 80%;
+      margin: 20px auto;
+      background-color: #303030;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .order {
+      border-bottom: 1px solid #eaeaea;
+      padding: 20px 0;
+    }
+
+    .order:last-child {
+      border-bottom: none;
+    }
+
+    .store-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .store-info-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .store-info .store-name {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .store-info .favorite {
+      background-color: #ff424e;
+      color: #fff;
+      padding: 2px 5px;
+      border-radius: 3px;
+      margin-right: 10px;
+    }
+
+    .store-info .chat,
+    .store-info .view-shop {
+      background-color: #ff424e;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 3px;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+
+    .order-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #eaeaea;
+      border-bottom: 1px solid #eaeaea;
+      padding: 20px 0;
+    }
+
+    .order-info img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+
+    .order-details {
+      flex: 1;
+    }
+
+    .order-details p {
+      margin: 5px 0;
+    }
+
+    .order-status {
+      display: flex;
+      align-items: center;
+    }
+
+    .order-status i {
+      margin-right: 5px;
+    }
+
+    .order-status .completed {
+      color: #ff424e;
+      margin-left: 10px;
+    }
+
+    .order-price {
+      color: #ff424e;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .order-actions {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .order-actions .btn {
+      background-color: #ff424e;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    .order-actions .btn.contact {
+      background-color: #fff;
+      color: #ff424e;
+      border: 1px solid #ff424e;
+    }
+
+    .price-info {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .price-info .original-price {
+      text-decoration: line-through;
+      color: #999;
+      margin-right: 10px;
+    }
+
+    .price-info .current-price {
+      color: #ff424e;
+      font-weight: bold;
+    }

@@ -1,0 +1,241 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 28, 2024, 2:01:18 PM
+    Author     : nkiem
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+
+
+.header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header i {
+    color: #ff5722;
+    margin-right: 10px;
+}
+
+.header h2 {
+    color: #ff5722;
+    margin: 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.address {
+    margin-top: 10px;
+}
+
+.address h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.address p {
+    margin: 5px 0;
+}
+
+.address .default {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.address .change, a {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.product-list {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.product-list h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.product-item img {
+    width: 83px;
+    height: 86px;
+    margin-right: 10px;
+}
+
+.product-item .details {
+    flex-grow: 1;
+}
+
+.product-item .details h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.product-item .details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.product-item .price,
+.product-item .quantity,
+.product-item .total {
+    width: 100px;
+    text-align: center;
+}
+
+.product-item .price {
+    color: #ff5722 !important;
+}
+
+
+
+.product-item .total {
+    color: #ff5722;
+}
+
+.badge {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.chat {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+p,
+div {
+    color: #999;
+}
+h2,
+h3,
+h4,
+.section-title{
+    color: #eee;
+}
+
+.section-voucher,
+.section-infor{
+    width: 70%;
+    margin: 20px auto;
+    background-color: #333;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #999;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.voucher,
+.payment-method,
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.voucher i,
+.payment-method i {
+    margin-right: 10px;
+}
+
+.voucher a,
+.payment-method a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.voucher a:hover,
+.payment-method a:hover {
+    text-decoration: underline;
+}
+
+.total {
+    font-size: 16px;
+}
+
+.total .amount {
+    color: #ee4d2d;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.order-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.order-button button {
+    background-color: #ee4d2d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.order-button button:hover {
+    background-color: #d43f1d;
+}
+
+.terms {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+
+.terms a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+.sub-title {
+    width: 580px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* số dòng khi vượt quá */
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    overflow: hidden;
+}

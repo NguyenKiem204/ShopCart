@@ -1,0 +1,197 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 16, 2024, 8:34:50 AM
+    Author     : nkiem
+*/
+/*===================footer============================*/ 
+/* Footer main wrap */
+.footer-main-wrap {
+  background-color: #1d1d1d; 
+  color: #eee; 
+  padding-top: 40px;
+  margin-top: 100px;
+  border-top:#000 2px solid;
+}
+
+/* Container */
+.footer-main-wrap .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Row */
+.footer-main-wrap .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Column styles */
+.footer-main-wrap .column-left,
+.footer-main-wrap .column-right,
+.footer-main-wrap .column,
+.footer-main-wrap .column-subscribe,
+.footer-main-wrap .column-full,
+.footer-main-wrap .column-left-bottom,
+.footer-main-wrap .column-right-bottom {
+  flex: 1;
+}
+
+.footer-main-wrap .column-left p,
+.footer-main-wrap .column a{
+  display: inline-block;
+ padding: 7px 0;
+}
+
+
+/* Footer headings */
+.footer-main__heading h4,
+.footer-main-wrap .main-right__title h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #eee; 
+}
+
+/* Footer contact items */
+.footer-main-wrap .footer-main__contact ul {
+  list-style: none;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-main-wrap .btn-contact {
+  font-size: 20px;
+  color: #fff;
+  background-color: #007bff;
+  text-align: center;
+  padding-top: 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.footer-main-wrap .btn-contact:hover {
+  background-color: #0056b3;
+}
+
+/* Subscribe input */
+.footer-main-wrap .main-right__input {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.footer-main-wrap .main-right__input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.footer-main-wrap .btn-submit {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-main-wrap .btn-submit:hover {
+  background-color: #218838;
+}
+
+/* Social media buttons */
+.footer-main-wrap .main-right__social-media ul {
+  list-style: none;
+  display: flex;
+}
+.footer-main-wrap .social-media a {
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 35px;
+  height: 35px;
+  background-color: #888;
+  border-radius: 50%;
+}
+
+.footer-main-wrap .social-media a i {
+  font-size: 16px; 
+  color: #fff; 
+}
+
+
+.footer-main-wrap .main-right__social-media li {
+  margin-right: 10px;
+}
+
+.footer-main-wrap .btn-social {
+  font-size: 20px;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.footer-main-wrap .btn-social:hover {
+  color: #0056b3;
+}
+
+/* Payment section */
+.footer-main-wrap .payment {
+  text-align: center;
+}
+
+.footer-main-wrap .payment__title {
+  margin: 15px 0;
+}
+
+/* Footer bottom */
+.footer-main-wrap .footer-bottom {
+  background-color: #1d1d1d; 
+  color: #eee; 
+  padding: 20px;
+}
+
+.footer-main-wrap .footer-copyright {
+  text-align: left;
+  color: #888;
+  font-weight: 550;
+  font-size: 1.4rem;
+}
+
+
+ .footer-main-wrap a {
+  color: #ddd; 
+  text-decoration: none; 
+  transition: color 0.3s;
+}
+
+.footer-main-wrap a:hover {
+  transform: scale(1.03);
+  color: #fff;
+}
+
+.footer-main-wrap .btn-scroll-top {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-main-wrap .btn-scroll-top:hover {
+  background-color: #0056b3;
+}
+
